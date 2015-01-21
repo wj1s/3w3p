@@ -1,5 +1,76 @@
 body,section,form,header,ul,ui,li,input,button,img,h1,h2 {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
+}
+
+body{
+    font-size: 62.5%
+}
+
+section.hero{
+    color: white;
+    max-width: 100em;
+    margin: 0 auto;
+    background: url(../imgs/find-an-agent-hero.png);
+    background-size:cover
+}
+
+section.hero header img{
+    float: left;
+    width: 120px;
+    margin-left: 1em;
+    margin-top: 1em;
+    height: 50px;
+}
+
+section.hero header ul{
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+section.hero header ul li{
+    float: left;
+    list-style: none;
+    margin-left: 2em;
+    font-size: 1.4em;
+}
+
+section.hero header ul li:last-child{
+    border: 1px solid white;
+}
+
+section.hero h1{
+    clear: both;
+    padding-top: 2em;
+    font-size: 4em;
+    text-align: center;
+}
+
+section.hero h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+section.hero form{
+    text-align: center;
+    padding: 2em 0 4em 0;
+}
+section.hero form input{
+    padding: 1em;
+    border: 0;
+    width: 18em;
+    border-radius: 2px 0 0 2px;
+    background: rgba(255,255,255,0.2);
+    opacity: .3;
+
+}
+section.hero form button{
+    color: white;
+    padding: 1em;
+    border: 0;
+    width:6em;
+    border-radius: 0 2px 2px 0;
+    background-color: lightgreen;
 }
